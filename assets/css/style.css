@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Header */
+
+.header{
+    padding: 13px 0;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.header__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu{
+    display: flex;
+}
+
+.header__link{
+    color: #292929;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header__item{
+    margin-right: 55px;
+}
+
+.btn{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #01996d;
+    padding: 10px 38px; 
+    border-radius: 4px;
+    border: none;
+}
+
+.btn_white{
+    color: #000;
+    background-color: #fff;
+}
+
+/* Main */
+
+.main{
+    background: url(../img/back.png) no-repeat center center / cover;
+    height: 90vh;
+    padding-top: 130px;
+}
+
+.main__info{
+    max-width: 339px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main__title{
+    color: #01996d;
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.main__text{
+    color: #484848;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 23px;
+}
+
+/* steps */
+
+.steps{
+    padding: 130px 0 196px 0;
+
+}
+
+.steps_subtitle{
+    color: #424242;
+    font-size: 24px;
+    font-weight: 600;
+    max-width: 108px;
+}
+
+.steps__blok{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1080px;
+    margin-bottom: 138px;
+}
+
+.steps__title{
+    max-width: 450px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #01996D
+}
+
+.steps__text{
+    max-width: 517px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #424242;
+}
+
+.steps__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.steps__card{
+    max-width: 300px;
+}
+
+.steps__card-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    max-width: 139px;
+    margin-bottom: 42px;
+}
+
+.text__wei{
+    max-width: 294px;
+    margin-bottom: 46px;
+}
+
+.pic_step{
+    max-width: 300px;
+    border-radius: 12px;
+}
+
+/* story */
+
+.story{
+    background-color: #245852;
+}
+
+.story__wrap{
+    padding: 176px 0 135px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.story__block{
+    display: flex;
+    flex-direction: column;
+}
+
+.kayla-story{
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 50px;
+    max-width: 447px;
+    margin-bottom: 25px;
+    margin-right: 23px;
+}
+
+.story__disc{
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    max-width: 424px;
+    max-height: 30px;
+    margin-right: 46px;
+    margin-bottom: 50px;
+}
+
+.video__img{
+    max-width: 690px;
+}
+
+.story__btn{
+    padding: 15px 38px;
+    margin-right: 150px;
+}
+
+/* our product */
+
+.our_product_wrap{
+    margin: 120px 0 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our_product__block{
+    margin-left: 80px
+}
+
+.picture{
+    max-width: 540px;
+}
+
+.subtitle{
+    color: #424242;
+    font-weight: 600;
+    font-size: 25px;
+    max-width: 104;
+    margin-bottom: 10px;
+}
+
+.diary{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #01996D;
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+.discript{
+    font-weight: 400;
+    font-size: 20px;
+    color: #484848;
+    margin-bottom: 40px;
+}
+
+/* footer */
+
+.footer{
+    background-color: #245852;
+}
+
+.fle{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__a{
+    margin-bottom: 60px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.a_bold{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 40px;
+}
